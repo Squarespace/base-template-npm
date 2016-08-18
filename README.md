@@ -6,7 +6,7 @@ This is the Squarespace Base Template. This version differs from the non-npm ver
 
 ***Prerequisite:***
 
-If you haven't already, install the [Squarespace Local Development Server](developers.squarespace.com/local-development). Then...
+If you haven't already, install the [Squarespace Local Development Server](http://developers.squarespace.com/local-development). Then...
 
 Clone this repository:
 
