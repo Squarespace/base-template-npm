@@ -1,0 +1,36 @@
+<nav data-content-field="navigation-primary-nav">
+  {.repeated section items}
+      {.folder?}
+        <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+
+        <span>
+          {.repeated section items}
+            {.collection?}
+                <a href="{collection.fullUrl}">
+                  {collection.navigationTitle}
+                </a>
+            {.end}
+            {.section externalLink}
+                <a href="{url}"{.section newWindow} target="_blank"{.end}>
+                  {title}
+                </a>
+            {.end}
+          {.end}
+        </span>
+          
+      {.or}
+
+        {.section collection}
+          <a href="{fullUrl}">{navigationTitle}</a>
+        {.end}
+
+        {.section externalLink}
+          <a href="{url}"{.section newWindow} target="_blank"{.end}>
+            {title}
+          </a>
+        {.end}
+
+      {.end}
+      
+  {.end}
+</nav>
