@@ -1,6 +1,6 @@
 # Base Template (npm Version)
 
-This is the Squarespace Base Template. This version differs from the non-npm version by using **_Node Package Manager_** for local development, module installation and building the deployable artifacts. 
+This is the Squarespace Base Template, a minimal Squarespace template using **_Node Package Manager_** for local development, module installation and deployment.
 
 ### Installation and use
 
@@ -36,16 +36,16 @@ npm run deploy
 
 ### Dependencies
 
-Base Template declares the following SQS modules as dev dependencies:
+Base Template depends on the following Squarespace modules for development:
 
-* [@squarespace/toolbelt](https://github.com/Squarespace/squarespace-toolbelt) - contains the utils collecting template assets and deploying
+* [@squarespace/toolbelt](https://github.com/Squarespace/squarespace-toolbelt) - utilities for building and deploying a template.
 * [webpack](https://webpack.github.io/) - The JS bundler we're using.
 
-Base Template also depends on the following:
+Base Template also depends on the following modules at runtime:
 
-* [@squarespace/core](https://github.com/Squarespace/squarespace-core) - core Squarespace functionality
+* [@squarespace/core](https://github.com/Squarespace/squarespace-core) - core Squarespace javascript functionality
 
-***Note: `npm start` will prompt you to install the [Squarespace Local Development Server](developers.squarespace.com/local-development) if you haven't already.***
+*Note: `npm start` will prompt you to install the [Squarespace Local Development Server](developers.squarespace.com/local-development) if you haven't already.*
 
 
 ### Full npm script reference
