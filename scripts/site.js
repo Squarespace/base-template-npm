@@ -2,10 +2,11 @@
 // Use the sqs-core module to access core Squarespace
 // functionality, like Lifecycle and ImageLoader. For
 // full documentation, go to:
+//
+// http://github.com/squarespace/squarespace-core
 
-// http://LINK-GOES-HERE
-
-var core = require('sqs-core');
+//TODO: move @sqs/core to @squarespace/core before publishing
+var core = require('@sqs/core');
 
 window.addEventListener('DOMContentLoaded', function() {
 

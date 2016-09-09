@@ -19,7 +19,7 @@
     "url": "ssh://git@github.com:Squarespace/base-template-npm.git"
   },
   "dependencies": {
-    "@squarespace/core": "^0.1.5"
+    "@sqs/core": "^0.1.5"
   },
   "devDependencies": {
     "dotenv": "^2.0.0",
