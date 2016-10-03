@@ -1,25 +1,25 @@
 {
   "name": "npm-base-template",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Squarespace Base Template using NPM",
   "author": "Squarespace, Inc.",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "postinstall": "squarespace setup",
-    "build": "squarespace assemble --noscripts && webpack --display-modules",
-    "watch": "squarespace assemble --watch --noscripts & webpack --watch --hide-modules",
-    "server": "squarespace runserver -d $PWD/build",
-    "authserver": "squarespace runserver -d $PWD/build --run-authenticated",
+    "build": "squarespace assemble && webpack --display-modules",
+    "watch": "squarespace assemble --watch & webpack --watch --hide-modules",
+    "server": "squarespace runserver",
+    "authserver": "squarespace runserver --auth",
     "start": "squarespace setup && (npm run watch & npm run server)",
     "deploy": "squarespace setup && squarespace deploy"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:Squarespace/base-template-npm.git"
+    "url": "ssh://git@github.com:squarespace/base-template-npm.git"
   },
   "dependencies": {
-    "@sqs/core": "^0.1.5"
+    "@squarespace/core": "^0.1.5"
   },
   "devDependencies": {
     "dotenv": "^2.0.0",
