@@ -5,8 +5,7 @@
 //
 // http://github.com/squarespace/squarespace-core
 
-//TODO: move @sqs/core to @squarespace/core before publishing
-var core = require('@sqs/core');
+var core = require('@squarespace/core');
 
 window.addEventListener('DOMContentLoaded', function() {
 
