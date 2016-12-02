@@ -77,7 +77,6 @@ By default your deployment will be commited with just a timestamp message. If yo
 npm run deploy -- -m "your message"
 ```
 
-
 ### Project Structure
 
     /base-template-npm
