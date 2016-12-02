@@ -6,7 +6,6 @@
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
-    "postinstall": "squarespace setup",
     "build": "squarespace assemble && webpack --display-modules",
     "watch": "squarespace assemble --watch & webpack --watch --hide-modules",
     "server": "squarespace runserver",
