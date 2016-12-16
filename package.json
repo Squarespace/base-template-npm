@@ -21,8 +21,8 @@
     "@squarespace/core": "^0.1.5"
   },
   "devDependencies": {
+    "@squarespace/toolbelt": "^0.7.5",
     "dotenv": "^2.0.0",
-    "@squarespace/toolbelt": "^0.6.1",
     "webpack": "^1.12.9"
   }
 }
