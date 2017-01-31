@@ -18,10 +18,6 @@ const config = {
     filename: '[name].js'
   },
   plugins: [
-    new webpack.optimize.DedupePlugin(),
-
-    new webpack.optimize.OccurenceOrderPlugin(),
-
     new webpack.DefinePlugin({
       '__DEBUG__': JSON.stringify(!IS_PRODUCTION)
     }),
