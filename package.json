@@ -10,7 +10,7 @@
     "watch": "squarespace assemble --watch & webpack --watch --hide-modules",
     "server": "squarespace runserver",
     "authserver": "squarespace runserver --auth",
-    "start": "squarespace setup && (npm run watch & npm run server)",
+    "start": "squarespace setup && (npm run watch & npm run authserver)",
     "deploy": "squarespace setup && squarespace deploy"
   },
   "repository": {
