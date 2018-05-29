@@ -5,7 +5,7 @@
 //
 // http://github.com/squarespace/squarespace-core
 
-var core = require('@squarespace/core');
+<!--var core = require('@squarespace/core');
 
 window.addEventListener('DOMContentLoaded', function() {
 
@@ -17,4 +17,4 @@ window.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-});
+});-->
