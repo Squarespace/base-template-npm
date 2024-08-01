@@ -1,3 +1,5 @@
+# This repository is scheduled to be deprecated. After October 31, 2024, the contents of this repo will no longer be available on GitHub. See [developers.squarespace.com/tools](https://developers.squarespace.com/tools) for more details
+
 # Base Template (npm Version)
 
 This is the Squarespace Base Template, a minimal Squarespace template using **_Node Package Manager_** for local development, module installation and deployment.
